@@ -2,3 +2,9 @@ body{
     background-color: #0D1117;
     color: white;
 }
+
+
+
+article img{
+    width: 50%;
+}
