@@ -1,10 +1,44 @@
-body{
-    background-color: #0D1117;
+body {
+    background-color: #343541;
     color: white;
+    text-align: center;
 }
 
 
 
-article img{
-    width: 50%;
+section.player-profile {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+article {
+    margin: 10px;
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.section-goalkeeper{
+    text-align: center;
+    display: block;
+    width: calc((100% / 4) - 20px);
+
+}
+
+.horizontal-section-defender,
+.horizontal-section-midfielder {
+    text-align: center;
+    width: calc((100% / 4) - 20px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-forward{
+    width: calc((100% / 4) - 20px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
